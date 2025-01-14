@@ -1,0 +1,42 @@
+[
+{
+  "model": "course.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Mathematics",
+    "slug": "mathematics"
+  }
+},
+{
+  "model": "course.subject",
+  "pk": 2,
+  "fields": {
+    "title": "Computer Science",
+    "slug": "computer-science"
+  }
+},
+{
+  "model": "course.subject",
+  "pk": 3,
+  "fields": {
+    "title": "Language",
+    "slug": "language"
+  }
+},
+{
+  "model": "course.subject",
+  "pk": 4,
+  "fields": {
+    "title": "Physics",
+    "slug": "physics"
+  }
+},
+{
+  "model": "course.subject",
+  "pk": 5,
+  "fields": {
+    "title": "Leadership",
+    "slug": "leadership"
+  }
+}
+]
