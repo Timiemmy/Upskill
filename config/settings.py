@@ -168,3 +168,11 @@ CACHE_MIDDLEWARE_KEY_PREFIX = 'config'
 INTERNAL_IPS = [
     '127.0.0.1',
 ]
+
+
+# Rest framework settings
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ]
+}

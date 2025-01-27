@@ -28,6 +28,7 @@ urlpatterns = [
     path('course/', include('course.urls')),
     path('', CourseListView.as_view(), name='course_list'),
     path('students/', include('student.urls')),
+    path('api/', include('course.api.urls', namespace='api')),
     path('__debug__/', include('debug_toolbar.urls')),
 ]
 
