@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 DJANGO_APPS = [
+    "daphne",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -52,6 +53,7 @@ THIRD_PARTY_APPS = [
 CUSTOM_APPS = [
     'course',
     'student',
+    'chat',
 ]
 
 
@@ -89,7 +91,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "config.wsgi.application"
-
+ASGI_APPLICATION = 'config.asgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
